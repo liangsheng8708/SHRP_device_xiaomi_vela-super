@@ -1,4 +1,4 @@
-# android_device_xiaomi_vela
+# SHRP_device_xiaomi_vela
 For building TWRP for Xiaomi Mi CC 9 Meitu Edition
 
 TWRP device tree for Xiaomi Mi CC 9 Meitu Edition
