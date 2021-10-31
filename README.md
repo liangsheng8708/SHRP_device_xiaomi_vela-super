@@ -24,7 +24,7 @@ TO-DO:
 First checkout minimal twrp with omnirom tree:
 
 ```
-repo init -u git://github.com/minimal-manifest-twrp/platform_manifest_twrp_omni.git -b twrp-9.0
+repo init -u https://github.com/liangsheng8708/SHRP_device_xiaomi_vela.git -b master
 repo sync
 ```
 
