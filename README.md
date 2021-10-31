@@ -1,8 +1,7 @@
-# android_device_xiaomi_pyxis
-For building TWRP for Xiaomi Mi 9 Lite
+# android_device_xiaomi_vela
+For building TWRP for Xiaomi Mi CC 9 Meitu Edition
 
-TWRP device tree for Xiaomi Mi 9 Lite
-
+TWRP device tree for Xiaomi Mi CC 9 Meitu Edition
 ## Features
 
 Works:
@@ -32,21 +31,21 @@ repo sync
 Then add these projects to .repo/manifest.xml:
 
 ```xml
-<project path="device/xiaomi/pyxis" name="mauronofrio/android_device_xiaomi_pyxis" remote="github" revision="android-9.0" />
+<project path="device/xiaomi/vela" name="liangsheng8708/SHRP_device_xiaomi_vela" remote="github" revision="master" />
 ```
 
 Finally execute these:
 
 ```
 . build/envsetup.sh
-lunch omni_pyxis-eng
+lunch omni_vela-eng
 mka recoveryimage ALLOW_MISSING_DEPENDENCIES=true # Only if you use minimal twrp tree.
 ```
 
 To test it:
 
 ```
-fastboot boot out/target/product/pyxis/recovery.img
+fastboot boot out/target/product/vela/recovery.img
 ```
 
 ## Other Sources
