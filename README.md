@@ -24,8 +24,7 @@ TO-DO:
 First checkout minimal twrp with omnirom tree:
 
 ```
-repo init -u https://github.com/liangsheng8708/SHRP_device_xiaomi_vela.git -b master
-repo sync
+git clone https://github.com/liangsheng8708/SHRP_device_xiaomi_vela.git device/xiaomi/vela
 ```
 
 Then add these projects to .repo/manifest.xml:
